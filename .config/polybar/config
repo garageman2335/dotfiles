@@ -59,7 +59,7 @@ font-2 = siji:pixelsize=10;1
 
 modules-left = i3
 modules-center = mpd
-modules-right = filesystem pulseaudio brightnessmenu backlight memory cpu battery date powermenu
+modules-right = filesystem pulseaudio brightnessmenu backlight memory cpu battery date powerdmenu
 
 tray-position = right
 tray-padding = 2
@@ -390,6 +390,11 @@ ramp-0 = 
 ramp-1 = 
 ramp-2 = 
 ramp-foreground = ${colors.foreground-alt}
+
+[module/powerdmenu]
+type = custom/text
+content = "POWER"
+click-left = /usr/local/bin/shutdowndmenu.sh
 
 [module/powermenu]
 type = custom/menu

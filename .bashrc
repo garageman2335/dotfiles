@@ -128,3 +128,6 @@ alias servermount=/usr/local/bin/servermount.sh
 #add to path
 export PATH=~/.local/bin:$PATH
 alias config='/usr/bin/git --git-dir=/home/matthew/.cfg/ --work-tree=/home/matthew'
+
+alias dotfiles='/usr/bin/git --git-dir=/home/matthew/.dotfiles/ --work-tree=/home/matthew'
+alias config='/usr/bin/git --git-dir=/home/matthew/.cfg/ --work-tree=/home/matthew'
